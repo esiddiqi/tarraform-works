@@ -7,7 +7,7 @@ resource "aws_instance" "first_instance" {
       instance_type = "t2.micro"
       availability_zone = "us-east-2a"
       key_name = "vprofile-bean-key"
-      vpc_security_group_ids = ["sg-0067ecb2e827a7934"]
+      vpc_security_group_ids = ["sg-05ed6f021b22c2359"]
       tags = {
          Name = "tarra_instance"
          }
